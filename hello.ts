@@ -1,3 +1,3 @@
-import * as name from './data.json'
+import data from './data.json'
 
-console.log(name)
+console.log(data.map(x => x.name))

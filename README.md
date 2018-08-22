@@ -3,8 +3,7 @@ TypeScript Import Json File Demo
 
 ```
 npm install
-npx tsc
-node hello.js
+npx ts-node hello.ts
 ```
 
 It will print `{ name: 'typescript' }`
@@ -12,8 +11,6 @@ It will print `{ name: 'typescript' }`
 Notice
 ------
 
-I was using `ts-node` to run ts files without compilation, but seems it do not work well with `.json` importing.
-See this demo: https://github.com/freewind-demos/ts-node-import-json-file-issue-demo
-
-So I use `tsc` in this demo.
-
+- typescript version should >= 2.9
+- `resolveJsonModule`: should be `true`
+- `module`: should be `commonjs`
