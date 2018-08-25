@@ -14,3 +14,4 @@ Notice
 - typescript version should >= 2.9
 - `resolveJsonModule`: should be `true`
 - `module`: should be `commonjs`
+- `esModuleInterop`: should be `true` (TODO: need more understanding)
